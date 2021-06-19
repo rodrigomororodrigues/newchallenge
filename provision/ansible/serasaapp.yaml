@@ -37,7 +37,7 @@
         
     - name: Clona repositório com os arquivos do curso para a HOME do usuario rodrigomoro
       git:
-        repo: 'https://github.com/rodrigomororodrigues/ansibleteste.git'
+        repo: 'https://github.com/rodrigomororodrigues/newchallenge.git'
         dest: /home/rodrigomoro/ansibleteste
         
     - name: Cria o diretório .ssh
