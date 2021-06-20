@@ -62,13 +62,13 @@
         dest: /etc/sudoers.d
         mode: 0644
         
-    - name: Criando o arquivo authorized_keys
-      copy:
-        src: files/authorized_keys
-        dest: /home/rodrigomoro/.ssh/authorized_keys
-        owner: rodrigomoro
-        group: rodrigomoro
-        mode: 0644
+    #- name: Criando o arquivo authorized_keys
+    # copy:
+    #   src: files/authorized_keys
+    #   dest: /home/rodrigomoro/.ssh/authorized_keys
+    #   owner: rodrigomoro
+    #   group: rodrigomoro
+    #   mode: 0644
    
     - name: Instala pacotes que permitem que o apt seja usado sobre HTTPS
       apt:
